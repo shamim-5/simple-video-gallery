@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ReletedVideoListItem({ video }) {
   const { id, thumbnail, title, duration, author, views, date } = video || {};
+  
   return (
     <div className="w-full flex flex-row gap-2 mb-4">
       <div className="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]">
